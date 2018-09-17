@@ -56,8 +56,8 @@ def over?(board)
   end
 end
 
-def winner?(board)
-  index = [" ", " ", " ", " ", " ", " ", " ", " "]
+def winner (board)
+  index = []
   index = won?(board)
   if index == false
     return nil
